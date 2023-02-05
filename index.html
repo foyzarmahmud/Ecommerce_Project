@@ -69,7 +69,187 @@
       </ul>
     </nav>
     <!-- navbar code ends here -->
-    <main>Home page</main>
+
+    <!-- Header starts here -->
+    <header class="header">
+      <div class="banner flex_space_around">
+        <marquee class="banner_title" behavior="" direction=""
+          >50% Sales going on</marquee
+        >
+        <div class="features flex_space_around">
+          <article class="feature flex_center">
+            <i class="fa-solid fa-truck feature_icon"></i>
+            <h3>Shipping within 7 days</h3>
+          </article>
+
+          <article class="feature flex_center">
+            <i class="fa-brands fa-rocketchat feature_icon"></i>
+            <h3>Support 24/7</h3>
+          </article>
+
+          <article class="feature flex_center">
+            <i class="fa-regular fa-credit-card feature_icon"></i>
+            <h3>Safe money</h3>
+          </article>
+        </div>
+      </div>
+    </header>
+    <!-- Header ends here -->
+
+    <!-- main section starts here -->
+    <main class="flex_center">
+      <div class="sidebar">
+        <section class="categories_section">
+          <h3>Categories</h3>
+          <ul class="list">
+            <li class="list_item">
+              <label for="phone">
+                <input type="checkbox" name="phone" id="phone" value="phone" />
+                Phone
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="tablets">
+                <input
+                  type="checkbox"
+                  name="tablets"
+                  id="tablets"
+                  value="tablets"
+                />
+                Tablets
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="telivisions">
+                <input
+                  type="checkbox"
+                  name="telivisions"
+                  id="telivisions"
+                  value="telivisions"
+                />
+                Telivisions
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="computers">
+                <input
+                  type="checkbox"
+                  name="computers"
+                  id="computers"
+                  value="computers"
+                />
+                Computers
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="headphones">
+                <input
+                  type="checkbox"
+                  name="headphones"
+                  id="headphones"
+                  value="headphones"
+                />
+                Headphones
+              </label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="price_section">
+          <h3>Price Range</h3>
+          <ul class="list">
+            <li class="list_item">
+              <label for="price1">
+                <input type="radio" name="price1" id="price1" value="[0,20]" />
+                $0-20
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="price2">
+                <input type="radio" name="price2" id="price2" value="[21,50]" />
+                $21-50
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="price3">
+                <input
+                  type="radio"
+                  name="price3"
+                  id="price3"
+                  value="[51,100]"
+                />
+                $51-100
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="price4">
+                <input
+                  type="radio"
+                  name="price4"
+                  id="price4"
+                  value="[101,500]"
+                />
+                $101-500
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="price5">
+                <input type="radio" name="price5" id="price5" value="[500+]" />
+                $500+
+              </label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="shiping_section">
+          <h3>Shiping Option</h3>
+          <ul class="list">
+            <li class="list_item">
+              <label for="free">
+                <input type="radio" name="shiping" id="free" value="free" />
+                Free Shiping
+              </label>
+            </li>
+
+            <li class="list_item">
+              <label for="paid">
+                <input type="radio" name="paid" id="paid" value="paid" />
+                Paid Shiping
+              </label>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="main_content">
+        <section class="actions flex_space_around">
+          <div class="actions_sort">
+            <label for="sort">Sorted By:</label>
+            <select name="sort" id="sort">
+              <option value="sold">Most sold first</option>
+              <option value="rating">Most rated first</option>
+              <option value="price">Cheapest first</option>
+              <option value="arrival">Newest first</option>
+              <option value="discount">Biggest discount first</option>
+            </select>
+          </div>
+          <div class="actions_search">
+            <input type="text" placeholder="Search product" />
+            <button class="btn">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- main section ends here -->
     <!-- footer starts here -->
     <footer class="footer flex_space_around">
       <div class="flex_space_around">
